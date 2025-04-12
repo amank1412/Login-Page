@@ -12,16 +12,16 @@ body {
   height: 100%;
   width: 100%;
   place-items: center;
-  background: -webkit-linear-gradient(left, #9896f0, #fbc8d5);
+  background: -webkit-linear-gradient(left, #0d0b1e);
 }
 ::selection {
-  background: #12e8f0;
-  color: #fff;
+  background: #110c48;
+  color: #030a29;
 }
 .wrapper {
   overflow: hidden;
   max-width: 390px;
-  background: #fff;
+  background: #ffffff;
   padding: 30px;
   border-radius: 5px;
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
@@ -45,13 +45,13 @@ body {
   overflow: hidden;
   margin: 30px 0 10px 0;
   justify-content: space-between;
-  border: 1px solid lightgrey;
+  border: 1px solid rgb(0, 0, 44);
   border-radius: 5px;
 }
 .slide-controls .slide {
   height: 100%;
   width: 100%;
-  color: #fff;
+  color: #0d0e40;
   font-size: 18px;
   font-weight: 500;
   text-align: center;
@@ -61,7 +61,7 @@ body {
   transition: all 0.6s ease;
 }
 .slide-controls label.signup {
-  color: #000;
+  color: #2a0303;
 }
 .slide-controls .slider-tab {
   position: absolute;
@@ -70,7 +70,7 @@ body {
   left: 0;
   z-index: 0;
   border-radius: 5px;
-  background: -webkit-linear-gradient(left, #fbee97, #adedd5);
+  background: -webkit-linear-gradient(left, #000000, #d4d5db);
   transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 input[type="radio"] {
@@ -80,12 +80,12 @@ input[type="radio"] {
   left: 50%;
 }
 #signup:checked ~ label.signup {
-  color: #fff;
+  color: #000008;
   cursor: default;
   user-select: none;
 }
 #signup:checked ~ label.login {
-  color: #000;
+  color: #000000;
 }
 #login:checked ~ label.signup {
   color: #000;
@@ -117,13 +117,13 @@ input[type="radio"] {
   outline: none;
   padding-left: 15px;
   border-radius: 5px;
-  border: 1px solid lightgrey;
+  border: 1px solid rgb(10, 2, 35);
   border-bottom-width: 2px;
   font-size: 17px;
   transition: all 0.3s ease;
 }
 .form-inner form .field input:focus {
-  border-color: #12e8f0;
+  border-color: #000000;
 }
 .form-inner form .field input::placeholder {
   color: #999;
@@ -162,9 +162,9 @@ form .btn .btn-layer {
   left: -100%;
   background: -webkit-linear-gradient(
     right,
-    #fbee97,
-    #adedd5,
-    #fbee97,
+    #dbc221,
+    #7469a9,
+    #d4d9eb,
     #adedd5
   );
   border-radius: 5px;
@@ -180,7 +180,7 @@ form .btn input[type="submit"] {
   position: relative;
   background: none;
   border: none;
-  color: #fff;
+  color: #000000;
   padding-left: 0;
   border-radius: 10px;
   font-size: 20px;
